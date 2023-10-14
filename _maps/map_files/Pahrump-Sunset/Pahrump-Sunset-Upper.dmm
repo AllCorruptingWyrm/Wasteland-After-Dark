@@ -823,6 +823,9 @@
 /obj/effect/turf_decal/trimline/brown/filled/corner{
 	dir = 4
 	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
@@ -884,7 +887,7 @@
 /area/f13/caves)
 "aex" = (
 /obj/item/reagent_containers/glass/bucket,
-/obj/machinery/chem_dispenser/indusmutagensaltpeter,
+/obj/machinery/chem_dispenser/induschem,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -1670,6 +1673,9 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/trimline/brown/filled/corner,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
@@ -4640,6 +4646,9 @@
 /obj/effect/turf_decal/trimline/brown/filled/corner{
 	dir = 4
 	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
 	},
@@ -5505,6 +5514,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/item/cultivator,
+/obj/item/shovel/spade,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -9594,9 +9605,8 @@
 	},
 /area/f13/building/massfusion)
 "rSA" = (
-/obj/item/shovel/spade,
-/obj/item/cultivator,
-/obj/structure/rack/shelf_metal,
+/obj/machinery/chem_dispenser/indusmutagensaltpeter,
+/obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
@@ -12202,6 +12212,9 @@
 /obj/machinery/hydroponics/constructable,
 /obj/structure/window/reinforced{
 	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/open/floor/f13{
 	icon_state = "darkdirtysolid"
